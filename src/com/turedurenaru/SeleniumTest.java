@@ -20,7 +20,7 @@ import org.openqa.selenium.support.ui.Select;
 public class SeleniumTest{
     public static void main(String[] args){
         // ArrayList<String> aryPlan = new ArrayList<>();
-        String[] aryPlan = {"休み","A","A","A","休み","休み","A","A","A","A","A","休み","休み","A","A","A","A","A","休み","休み","A","A","A","A","A","休み","休み","A","A","A","A"};
+        String[] aryPlan = {"休み"};
         System.setProperty("webdriver.chrome.driver","/home/yuichi/myprog/java/chromedriver");
         WebDriver driver = new ChromeDriver();
         driver.get("https://inna:toyora1017@innerfashion.sakura.ne.jp/myhome/");
