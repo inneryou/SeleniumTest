@@ -66,5 +66,6 @@
         "./selenium-java-4.8.1/lib/opentelemetry-semconv-1.22.0-alpha.jar",
         "./selenium-java-4.8.1/lib/reactive-streams-1.0.4.jar",
         "./selenium-java-4.8.1/lib/slf4j-api-2.0.6.jar"
-    ]
+    ],
+    "java.compile.nullAnalysis.mode": "automatic"
 }
